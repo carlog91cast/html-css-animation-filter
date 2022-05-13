@@ -18,6 +18,9 @@
 .ex-4-square:hover{
     opacity: 0;
 }
+
+
+
 .ex-5-square{
     transition: 5s;
     
@@ -31,6 +34,13 @@
 }
 .ex-6-img:hover{
     transition: 5s;
-    filter: grayscale(2);
+    filter: grayscale(.9);
 }
-/* non mi sono reso conto ma ho fatto il 6 e il 7 assieme */
+
+
+.ex-7-img {
+    transition: 4s;
+}
+.ex-7-img:hover {
+    filter: grayscale(.6) invert(.2);
+  }
