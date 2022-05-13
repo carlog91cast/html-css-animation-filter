@@ -51,3 +51,31 @@
 .ex-8-img:hover{
     filter: hue-rotate(70deg) brightness(0.30); border-radius: 40px;
 }
+
+.ex-9-img{
+    transition: 5s;
+}
+.ex-9-img:hover{
+    filter: opacity(.1); filter: invert(0.5); border-radius: 50px; 
+    transform:scale(2);
+
+
+}
+.ex-10-icon{
+    animation: spin 2s linear infinite;
+}
+@keyframes spin{
+    0% {
+        transform: rotate(5turn)
+    }
+     
+}
+.ex-11-icon{
+    animation: spin 2s linear infinite;
+}
+@keyframes spin{
+    0% {
+        transform: rotate(5turn)
+    }
+     
+}
