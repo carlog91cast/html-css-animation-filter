@@ -44,3 +44,10 @@
 .ex-7-img:hover {
     filter: grayscale(.6) invert(.2);
   }
+
+.ex-8-img {
+    transition: 3s;
+}
+.ex-8-img:hover{
+    filter: hue-rotate(70deg) brightness(0.30); border-radius: 40px;
+}
