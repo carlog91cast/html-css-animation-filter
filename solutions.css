@@ -70,12 +70,19 @@
     }
      
 }
-.ex-11-icon{
-    animation: spin 2s linear infinite;
+.ex-11-icon:hover{
+    animation: spin 1s alternate-reverse infinite;
 }
 @keyframes spin{
     0% {
-        transform: rotate(5turn)
+        transform: rotate(1turn)
+    }
+    50%{
+        transform: rotate(1turn);
+    }
+    75%{
+        transform: rotate(1turn);
     }
      
 }
+/* non è proprio quanto descritto in consegna */
