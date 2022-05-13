@@ -29,3 +29,8 @@
     transform:scale(.5);
 
 }
+.ex-6-img:hover{
+    transition: 5s;
+    filter: grayscale(2);
+}
+/* non mi sono reso conto ma ho fatto il 6 e il 7 assieme */
